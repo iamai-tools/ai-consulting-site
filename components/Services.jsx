@@ -96,7 +96,7 @@ export default function Services() {
               </ul>
 
               <div
-                className={`relative mt-auto flex items-center justify-between pt-6 border-t ${
+                className={`relative mt-auto flex items-center justify-end pt-6 border-t ${
                   s.featured ? "border-white/15" : "border-ink-900/[0.07]"
                 }`}
               >
