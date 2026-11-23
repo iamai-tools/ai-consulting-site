@@ -6,14 +6,14 @@ const team = [
     name: "Brian Basiliere, CFA, CAIA",
     title: "Co-Founder",
     photo: "/team/brian.png",
-    bio: "Technology executive who builds and scales AI products, engineering organizations and enterprise delivery. Has led AI platform development and enterprise deployment across healthcare products, and built and scaled a 100+ person engineering and implementation team.",
+    bio: "Co-founder of iamai.tools. Technology executive who builds and scales AI products, engineering organizations and enterprise delivery. Has led AI platform development and enterprise deployment across healthcare products, and built and scaled a 100+ person engineering and implementation team.",
     linkedin: "https://www.linkedin.com/in/brian-basiliere-cfa-caia/",
   },
   {
     name: "Aryan Mathur",
     title: "Co-Founder",
     photo: "/team/aryan.png",
-    bio: "Co-founder of iamai.tools, helping businesses design and deploy AI agents and automation that fit how their teams already work.",
+    bio: "Co-founder of iamai.tools. A hands-on engineer who designs and builds the AI agents, automation and integrations behind our client work, and ties every system back to business outcomes like lower cost, faster cycles and revenue growth. He takes projects from architecture to production, so what we scope is what ships.",
     linkedin: "https://www.linkedin.com/in/aryan-mathur/",
   },
 ];
