@@ -8,7 +8,7 @@ const tracks = [
 ];
 
 const stats = [
-  { value: "4", label: "Core service lines" },
+  { value: "8", label: "Service lines" },
   { value: "24/7", label: "Agent uptime by design" },
   { value: "100%", label: "Remote-first delivery" },
 ];
