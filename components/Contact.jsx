@@ -5,7 +5,7 @@ import SectionHeader from "./SectionHeader";
 const items = [
   { icon: "mail", label: "Email", value: "briian@iamai.tools", href: "mailto:briian@iamai.tools" },
   { icon: "mail", label: "Email", value: "aryan@iamai.tools", href: "mailto:aryan@iamai.tools" },
-  { icon: "phone", label: "Phone", value: "(617) 938-4670", href: "tel:+16179384670" },
+  { icon: "phone", label: "Phone", value: "(408) 673-9357", href: "tel:+14086739357" },
   { icon: "cloud", label: "Location", value: "The Cloud", href: null },
 ];
 

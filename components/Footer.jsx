@@ -3,7 +3,7 @@ import { Logo } from "./Nav";
 const cols = [
   { title: "Services", links: [["Autonomous AI Agents", "#services"], ["Process Automation", "#services"], ["Systems Orchestration", "#services"], ["Custom Language Models", "#services"]] },
   { title: "Company", links: [["About", "#about"], ["Approach", "#process"], ["Contact", "#contact"]] },
-  { title: "Get in touch", links: [["aryan@iamai.tools", "mailto:aryan@iamai.tools"], ["briian@iamai.tools", "mailto:briian@iamai.tools"], ["(617) 938-4670", "tel:+16179384670"]] },
+  { title: "Get in touch", links: [["aryan@iamai.tools", "mailto:aryan@iamai.tools"], ["briian@iamai.tools", "mailto:briian@iamai.tools"], ["(408) 673-9357", "tel:+14086739357"]] },
 ];
 
 export default function Footer() {
