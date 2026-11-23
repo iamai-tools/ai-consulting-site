@@ -17,8 +17,6 @@ const team = [
     photo: "/team/aryan.png",
     bio: "Co-founder of iamai.tools and a forward deployed software engineer, working directly with customers to build and deploy software in their environments. Computer science background from Purdue, graduate study in AI at Georgia Tech, and earlier founding experience and software engineering internships. He pairs engineering depth with business sense and ties each system to the outcome it needs to drive.",
     linkedin: "https://www.linkedin.com/in/aryan-mathur/",
-    github: "https://github.com/aryanmathur2003",
-    website: "https://mathurs.fyi/",
   },
 ];
 
