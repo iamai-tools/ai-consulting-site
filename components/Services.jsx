@@ -8,8 +8,6 @@ const services = [
     description:
       "Agents that understand context, make decisions and complete tasks across multiple tools on their own. They log into software, fill out forms, move between systems and handle multi-step workflows from start to finish.",
     points: ["Multi-step workflows", "Works across your tools", "Fewer manual errors"],
-    price: "From $149",
-    cta: "Book",
     featured: true,
   },
   {
@@ -18,8 +16,6 @@ const services = [
     description:
       "Software that handles simple, repetitive tasks the way a person would by clicking, typing and moving data between systems. The right fit when the steps are clear and rarely change.",
     points: ["Routine, predictable work", "Fast to set up", "Runs around the clock"],
-    price: "Included in scope",
-    cta: "Add to plan",
   },
   {
     icon: "orchestration",
@@ -27,8 +23,6 @@ const services = [
     description:
       "The layer that oversees everything and keeps it running smoothly. It monitors activity, coordinates AI agents and knows when to adjust, pause or bring in a human.",
     points: ["Agent coordination", "Human in the loop", "Improves over time"],
-    price: "From $199",
-    cta: "Book",
   },
   {
     icon: "model",
@@ -36,8 +30,6 @@ const services = [
     description:
       "Language models trained on your data, terminology, policies and workflows so they understand how your company actually operates. More accurate than generic AI tools and you stay in control of your data.",
     points: ["Trained on your data", "Your terminology", "You own the data"],
-    price: "Included in scope",
-    cta: "Add to plan",
   },
 ];
 
@@ -108,15 +100,6 @@ export default function Services() {
                   s.featured ? "border-white/15" : "border-ink-900/[0.07]"
                 }`}
               >
-                <span
-                  className={
-                    s.price.startsWith("From")
-                      ? `text-[1.15rem] font-semibold ${s.featured ? "text-white" : "text-ink-900"}`
-                      : `text-[0.8rem] font-semibold uppercase tracking-[0.1em] ${s.featured ? "text-brand-200" : "text-ink-500"}`
-                  }
-                >
-                  {s.price}
-                </span>
                 <a
                   href="#contact"
                   className={`inline-flex items-center gap-1.5 text-[0.88rem] font-medium px-4 py-2 rounded-full transition-colors ${
@@ -125,7 +108,7 @@ export default function Services() {
                       : "bg-ink-900 text-white hover:bg-brand-700"
                   }`}
                 >
-                  {s.cta}
+                  Book a consultation
                   <Icon name="arrow" className="w-3.5 h-3.5" />
                 </a>
               </div>
